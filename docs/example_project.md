@@ -9,6 +9,7 @@ poetry install
 cd example
 cp env.example .env
 poetry run python manage.py migrate
+poetry run python manage.py load_coffee_beans
 poetry run python manage.py runserver
 ```
 
